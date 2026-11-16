@@ -15,34 +15,51 @@ const stats = [
 export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
     <>
-      <section className="dark-zone bg-[var(--deep)] pt-[4.5rem]">
-        <div>
-          <div className="relative overflow-hidden shell flex flex-col items-center text-center justify-center py-20 lg:py-32">
-            <h1 className="font-display text-5xl sm:text-6xl xl:text-7xl leading-[1.03] max-w-5xl text-foreground">
-              Your audit team, <span className="text-accent">extended.</span>
-            </h1>
-            <p className="mt-8 text-lg sm:text-xl text-foreground/80 leading-relaxed max-w-2xl mx-auto">
-              Experienced UK audit and accounting professionals who work inside your systems, so your firm can take on more clients without the recruitment headache.
-            </p>
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-              <button
-                onClick={() => onNavigate('/contact')}
-                className="inline-flex items-center gap-2 bg-accent px-8 py-4 text-base font-semibold text-accent-foreground hover:bg-gold-hover"
-              >
-                Build your team <ArrowUpRight className="size-5" />
-              </button>
-              <a href="tel:+447803061011" className="text-base font-semibold text-foreground hover:text-accent">
-                or call +44 7803 061011
-              </a>
-            </div>
-            <ul className="mt-14 pt-8 border-t border-hairline grid w-full gap-4 text-sm text-foreground/85 sm:grid-cols-2 lg:grid-cols-4 justify-items-center">
-              {['Audit Junior to Manager', 'ACCA-qualified accountants', 'Works in CCH, CaseWare & Xero', 'You keep signing authority'].map((t) => (
-                <li key={t} className="flex items-center gap-2.5">
-                  <ShieldCheck className="size-4 shrink-0 text-accent" /> {t}
-                </li>
-              ))}
-            </ul>
+      <section className="bg-[var(--deep)] pt-[4.5rem]">
+        <div className="shell flex flex-col items-center text-center py-16 lg:py-24">
+          {/* Authority: who stands behind the firm */}
+          <p className="text-sm font-medium text-foreground/70">
+            Founder-led by an <span className="font-semibold text-accent">ACCA-qualified</span> ex-top-10 auditor
+          </p>
+
+          {/* Clarity + outcome: what you get, in one line */}
+          <h1 className="font-display mt-6 max-w-5xl text-5xl sm:text-6xl xl:text-7xl leading-[1.05] text-foreground">
+            Add audit capacity <span className="text-accent">without hiring.</span>
+          </h1>
+          <p className="mt-7 max-w-2xl text-lg sm:text-xl leading-relaxed text-foreground/80">
+            Experienced UK audit and accounting professionals who work inside your systems, so your firm can take on more clients and meet every deadline.
+          </p>
+
+          {/* One primary action, low-friction secondary, risk reversal beneath */}
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+            <button
+              onClick={() => onNavigate('/contact')}
+              className="inline-flex items-center gap-2 bg-accent px-9 py-4 text-base font-semibold text-accent-foreground shadow-lg hover:bg-gold-hover hover:-translate-y-0.5"
+            >
+              Build your team <ArrowUpRight className="size-5" />
+            </button>
+            <a href="tel:+447803061011" className="text-base font-semibold text-foreground hover:text-accent">
+              or call +44 7803 061011
+            </a>
           </div>
+          <p className="mt-4 text-sm text-foreground/65">Free initial conversation · No obligation · Confidential</p>
+
+          {/* Objection handling: the fears a practice owner has */}
+          <ul className="mt-14 grid w-full max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              ['You keep your clients', 'We never contact them'],
+              ['You keep signing authority', 'Your opinion, your sign-off'],
+              ['No recruitment wait', 'Skip 3-month notice periods'],
+              ['Works in your software', 'CCH, CaseWare, Xero'],
+            ].map(([t, d]) => (
+              <li key={t} className="rounded-2xl border border-hairline bg-card px-5 py-5 text-left shadow-sm">
+                <p className="flex items-center gap-2 text-sm font-semibold text-foreground">
+                  <ShieldCheck className="size-4 shrink-0 text-accent" /> {t}
+                </p>
+                <p className="mt-1 pl-6 text-sm text-foreground/65">{d}</p>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
