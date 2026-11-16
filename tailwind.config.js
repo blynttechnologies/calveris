@@ -42,7 +42,7 @@ export default {
         'hairline-light': 'var(--hairline-light)',
       },
       fontFamily: {
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        display: ['"Plus Jakarta Sans"', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
         body: ['Inter', 'system-ui', 'sans-serif'],
       },

@@ -41,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
           onClick={(e) => handleLinkClick(e, '/')}
           className="flex items-baseline gap-2 group cursor-pointer shrink-0 mr-4"
         >
-          <span className="font-display text-[1.5rem] font-medium tracking-[0.34em] text-foreground transition-opacity group-hover:opacity-90">
+          <span className="font-display text-[1.5rem] font-medium tracking-[0.3em] text-foreground transition-opacity group-hover:opacity-90">
             {siteConfig.name}
           </span>
           <span
