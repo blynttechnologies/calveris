@@ -182,3 +182,4 @@ html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; }
 button, a[class*="px-"][class*="py-"] { border-radius: 0.75rem; }
 h1.font-display, h2.font-display { text-wrap: balance; }
 .font-display.font-normal, .font-display.font-light { font-weight: 700; }
+@media (max-width: 767px) { body { padding-bottom: 4rem; } }

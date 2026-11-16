@@ -29,7 +29,7 @@ export const ProcessStepsSection: React.FC<ProcessStepsProps> = ({ showFullDetai
           {processSteps.map((step) => (
             <div
               key={step.number}
-              className="relative flex flex-col justify-between border-t border-hairline pt-8 group"
+              className="relative flex flex-col justify-between bg-card border border-hairline rounded-2xl p-7 shadow-sm card-lift group"
             >
               <div>
                 <span className="font-mono text-accent text-sm font-bold tracking-[0.2em] block mb-6">

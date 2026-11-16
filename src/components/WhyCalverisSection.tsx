@@ -29,7 +29,7 @@ export const WhyCalverisSection: React.FC = () => {
           {valueProps.map((prop) => (
             <div
               key={prop.number}
-              className="bg-card border border-hairline p-8 transition-all duration-300 hover:border-accent hover:shadow-lg flex flex-col justify-between group rounded-sm"
+              className="bg-card border border-hairline p-8 shadow-sm card-lift flex flex-col justify-between group rounded-2xl"
             >
               <div>
                 <span className="font-mono text-accent text-xs font-bold tracking-[0.2em] block mb-6">

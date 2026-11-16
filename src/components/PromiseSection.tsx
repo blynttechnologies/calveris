@@ -43,13 +43,13 @@ export const PromiseSection: React.FC = () => {
         </div>
 
         {/* 2x2 Grid of Promises */}
-        <div className="mt-16 grid border-t border-l border-hairline md:grid-cols-2">
+        <div className="mt-14 grid gap-6 md:grid-cols-2">
           {promises.map((p, idx) => {
             const Icon = p.icon;
             return (
               <div
                 key={idx}
-                className="flex items-start gap-5 border-r border-b border-hairline p-8 lg:p-12 transition-colors duration-500 hover:bg-[var(--card)]"
+                className="flex items-start gap-5 rounded-2xl border border-hairline bg-[var(--card)] p-8 card-lift"
               >
                 <div className="p-3 bg-accent/15 border border-accent/40 text-accent shrink-0 rounded-sm">
                   <Icon className="size-5" />
