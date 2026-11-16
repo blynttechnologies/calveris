@@ -19,8 +19,8 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-[color-mix(in_srgb,var(--background)_70%,transparent)]" />
       </div>
 
-      <div className="shell relative z-10 py-12 lg:py-20">
-        <div className="max-w-3xl">
+      <div className="shell relative z-10 py-12 lg:py-20 grid lg:grid-cols-12 gap-12 items-center">
+        <div className="max-w-3xl lg:col-span-7">
           {/* Eyebrow badge */}
           <div className="inline-flex items-center gap-2.5 border border-hairline bg-card px-3.5 py-1.5 mb-6 text-xs tracking-[0.18em] uppercase text-accent font-semibold rounded-sm">
             <span className="size-1.5 rotate-45 bg-accent" />
@@ -76,6 +76,26 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             </div>
           </div>
         </div>
+        {/* At-a-glance card */}
+        <aside className="hidden lg:block lg:col-span-5 bg-card border border-hairline shadow-[0_20px_50px_rgba(20,32,28,0.10)] p-8 card-lift">
+          <p className="eyebrow mb-6">What you get</p>
+          <ul className="space-y-5">
+            {[
+              ['Audit Junior to Manager', 'Experienced UK audit professionals'],
+              ['ACCA-qualified accountants', 'Accounts, VAT, bookkeeping & reporting'],
+              ['Works in your systems', 'CCH, CaseWare, Xero, MyWorkpapers'],
+              ['You stay in control', 'Your clients, fees, opinion and sign-off'],
+            ].map(([t, d]) => (
+              <li key={t} className="flex gap-4">
+                <CheckCircle2 className="size-5 text-accent shrink-0 mt-0.5" />
+                <div>
+                  <p className="font-semibold text-foreground">{t}</p>
+                  <p className="text-sm text-foreground/65">{d}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </aside>
       </div>
     </section>
   );

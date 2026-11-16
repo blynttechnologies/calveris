@@ -29,6 +29,31 @@ export const App: React.FC = () => {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
+  // Fade-up reveal for section content as it scrolls into view
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const io = new IntersectionObserver(
+      (entries) =>
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('in');
+            io.unobserve(e.target);
+          }
+        }),
+      { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+    );
+    const t = setTimeout(() => {
+      document.querySelectorAll('main section .shell > *').forEach((el) => {
+        el.classList.add('reveal');
+        io.observe(el);
+      });
+    }, 50);
+    return () => {
+      clearTimeout(t);
+      io.disconnect();
+    };
+  }, [currentPath]);
+
   const handleNavigate = (path: string) => {
     if (path !== currentPath) {
       window.history.pushState({}, '', BASE + path.replace(/^\//, ''));

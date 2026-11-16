@@ -33,7 +33,7 @@ export const AuditRolesSection: React.FC<AuditRolesProps> = ({
           {auditRoles.map((role) => (
             <div
               key={role.id}
-              className="group relative flex flex-col justify-between border border-hairline bg-[var(--card)] p-8 transition-all duration-300 hover:bg-[var(--secondary)] hover:border-accent hover:-translate-y-1 rounded-sm shadow-md"
+              className="group relative flex flex-col justify-between border border-hairline bg-[var(--card)] p-8 transition-all duration-300 card-lift hover:bg-[var(--secondary)] rounded-sm shadow-md"
             >
               <div>
                 <div className="flex items-center justify-between text-muted-foreground">
