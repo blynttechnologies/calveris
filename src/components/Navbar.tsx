@@ -39,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
         <a
           href="/"
           onClick={(e) => handleLinkClick(e, '/')}
-          className="flex items-baseline gap-2 group cursor-pointer shrink-0 mr-8"
+          className="flex items-baseline gap-2 group cursor-pointer shrink-0 mr-4"
         >
           <span className="font-display text-[1.5rem] font-medium tracking-[0.34em] text-foreground transition-opacity group-hover:opacity-90">
             {siteConfig.name}
@@ -51,7 +51,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-7 whitespace-nowrap xl:flex">
+        <nav className="hidden items-center gap-5 2xl:gap-7 whitespace-nowrap xl:flex">
           {siteConfig.navLinks.map((link) => {
             const isActive = currentPath === link.path;
             return (
@@ -59,7 +59,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
                 key={link.path}
                 href={link.path}
                 onClick={(e) => handleLinkClick(e, link.path)}
-                className={`eyebrow tracking-[0.14em] text-[0.74rem] whitespace-nowrap transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 duration-300 cursor-pointer ${
+                className={`eyebrow tracking-[0.1em] text-[0.72rem] whitespace-nowrap transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 duration-300 cursor-pointer ${
                   isActive
                     ? 'text-foreground underline underline-offset-8 decoration-accent decoration-2 font-semibold'
                     : 'text-foreground/75 hover:text-accent'

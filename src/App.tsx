@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { BackToTop } from './components/BackToTop';
 
 import { HomePage } from './pages/HomePage';
 import { AuditTeamPage } from './pages/AuditTeamPage';
@@ -98,6 +99,7 @@ export const App: React.FC = () => {
       <Navbar currentPath={currentPath} onNavigate={handleNavigate} />
       <div className="flex-1">{renderPage()}</div>
       <Footer onNavigate={handleNavigate} />
+      <BackToTop />
 
     </div>
   );

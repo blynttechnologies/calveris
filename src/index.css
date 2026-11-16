@@ -166,3 +166,9 @@ body.wireframe-mode .shell {
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 .card-lift { transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease; }
 .card-lift:hover { transform: translateY(-4px); box-shadow: 0 14px 32px rgba(20, 32, 28, 0.12); border-color: var(--accent); }
+
+/* Scrollbar matched to the site */
+html { scrollbar-width: thin; scrollbar-color: #8a6a2f #f0ece3; }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #f0ece3; }
+::-webkit-scrollbar-thumb { background: #8a6a2f; border-radius: 6px; border: 2px solid #f0ece3; }
