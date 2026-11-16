@@ -34,7 +34,7 @@ const CountUp: React.FC<{ value: string }> = ({ value }) => {
     if (ref.current) io.observe(ref.current);
     return () => io.disconnect();
   }, []);
-  return <p ref={ref} className="font-display text-3xl text-accent">{m ? `${n}${m[2]}` : value}</p>;
+  return <p ref={ref} className="font-display text-5xl sm:text-6xl text-[#e3c993] [font-variant-numeric:lining-nums]">{m ? `${n}${m[2]}` : value}</p>;
 };
 
 export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
@@ -91,12 +91,12 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
         </div>
       </section>
 
-      <section className="dark-zone bg-[var(--deep)]">
-        <div className="shell grid grid-cols-2 gap-8 py-10 lg:grid-cols-4">
+      <section className="bg-[#14213d] text-white">
+        <div className="shell grid grid-cols-2 gap-y-10 py-14 lg:grid-cols-4 lg:divide-x lg:divide-white/15">
           {stats.map((s) => (
-            <div key={s.l} className="text-center lg:text-left">
+            <div key={s.l} className="px-4 text-center">
               <CountUp value={s.v} />
-              <p className="mt-1 text-sm text-foreground/70">{s.l}</p>
+              <p className="mt-3 text-sm sm:text-base text-white/80">{s.l}</p>
             </div>
           ))}
         </div>
