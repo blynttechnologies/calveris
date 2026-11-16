@@ -9,42 +9,42 @@
 :root {
   --radius: 0.75rem;
   --background: #ffffff;
-  --foreground: #1c1912;
+  --foreground: #14213d;
   --card: #ffffff;
-  --card-foreground: #1c1912;
-  --primary: #976d0f;
+  --card-foreground: #14213d;
+  --primary: #94713a;
   --primary-foreground: #ffffff;
-  --secondary: #f5efe0;
-  --secondary-foreground: #1c1912;
-  --muted: #f5efe0;
-  --muted-foreground: #62594a;
-  --accent: #976d0f;
+  --secondary: #f1ede4;
+  --secondary-foreground: #14213d;
+  --muted: #f1ede4;
+  --muted-foreground: #55607a;
+  --accent: #94713a;
   --accent-foreground: #ffffff;
-  --ink: #1c1912;
+  --ink: #14213d;
   --ink-foreground: #ffffff;
-  --forest: #faf6ec;
-  --forest-foreground: #1c1912;
-  --surface: #faf6ec;
-  --deep: #faf6ec;
-  --hairline: rgba(151, 109, 15, 0.25);
-  --hairline-light: rgba(151, 109, 15, 0.35);
-  --gold: #976d0f;
-  --gold-hover: #c4951f;
+  --forest: #f7f5f0;
+  --forest-foreground: #14213d;
+  --surface: #f7f5f0;
+  --deep: #f7f5f0;
+  --hairline: rgba(148, 113, 58, 0.25);
+  --hairline-light: rgba(148, 113, 58, 0.35);
+  --gold: #94713a;
+  --gold-hover: #1f3159;
 }
 
 /* "Tinted" sections (hero, footer, closing bands): warm white with gold */
 .dark-zone {
-  --background: #faf6ec;
-  --foreground: #1c1912;
+  --background: #f7f5f0;
+  --foreground: #14213d;
   --card: #ffffff;
-  --secondary: #f1e9d4;
-  --muted-foreground: #62594a;
-  --accent: #976d0f;
+  --secondary: #ece6d8;
+  --muted-foreground: #55607a;
+  --accent: #94713a;
   --accent-foreground: #ffffff;
-  --deep: #faf6ec;
-  --hairline: rgba(151, 109, 15, 0.25);
-  --hairline-light: rgba(151, 109, 15, 0.35);
-  --gold-hover: #c4951f;
+  --deep: #f7f5f0;
+  --hairline: rgba(148, 113, 58, 0.25);
+  --hairline-light: rgba(148, 113, 58, 0.35);
+  --gold-hover: #1f3159;
   background-color: var(--deep);
   color: var(--foreground);
 }
@@ -115,7 +115,7 @@ a, button {
   text-transform: uppercase;
   font-size: 0.75rem;
   padding: 0.875rem 1.75rem;
-  box-shadow: 0 4px 14px rgba(151, 109, 15, 0.2);
+  box-shadow: 0 4px 14px rgba(148, 113, 58, 0.2);
   border: 1px solid var(--accent);
 }
 
@@ -123,7 +123,7 @@ a, button {
   background-color: var(--gold-hover);
   border-color: var(--gold-hover);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(151, 109, 15, 0.3);
+  box-shadow: 0 6px 20px rgba(148, 113, 58, 0.3);
 }
 
 .btn-outline-gold {
@@ -140,17 +140,17 @@ a, button {
 .btn-outline-gold:hover {
   border-color: var(--accent);
   color: var(--accent);
-  background-color: rgba(151, 109, 15, 0.08);
+  background-color: rgba(148, 113, 58, 0.08);
 }
 
 /* Wireframe / layout inspection mode (optional debug tool) */
 body.wireframe-mode section {
-  outline: 1px dashed rgba(151, 109, 15, 0.4) !important;
+  outline: 1px dashed rgba(148, 113, 58, 0.4) !important;
   position: relative;
 }
 
 body.wireframe-mode .shell {
-  outline: 1px dotted rgba(151, 109, 15, 0.3) !important;
+  outline: 1px dotted rgba(148, 113, 58, 0.3) !important;
 }
 
 /* Print optimizations for PDF Generation */
@@ -170,7 +170,7 @@ body.wireframe-mode .shell {
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 .card-lift { transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease; }
-.card-lift:hover { transform: translateY(-4px); box-shadow: 0 14px 32px rgba(28, 25, 18, 0.12); border-color: var(--accent); }
+.card-lift:hover { transform: translateY(-4px); box-shadow: 0 14px 32px rgba(20, 33, 61, 0.12); border-color: var(--accent); }
 
 /* Hidden scrollbar (page still scrolls) */
 html { scrollbar-width: none; -ms-overflow-style: none; }
@@ -196,6 +196,6 @@ h1.font-display, h2.font-display { text-wrap: balance; }
 }
 .pattern-uk > * { position: relative; }
 
-/* Eye-catching gold buttons: bright fill, dark text for contrast */
-.bg-accent { background-color: #e0ad2b; color: #1c1912; }
-.bg-accent:hover { background-color: #c99a1f; }
+/* Buttons: deep navy fill (trust), white text; gold is reserved for accents */
+.bg-accent { background-color: #14213d; color: #ffffff; }
+.bg-accent:hover { background-color: #1f3159; }
