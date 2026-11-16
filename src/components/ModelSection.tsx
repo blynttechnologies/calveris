@@ -4,7 +4,7 @@ import { modelComparison } from '../data/siteData';
 
 export const ModelSection: React.FC = () => {
   return (
-    <section className="border-b border-hairline bg-background py-16 lg:py-24">
+    <section className="bg-vector border-b border-hairline bg-background py-16 lg:py-24">
       <div className="shell grid gap-12 lg:grid-cols-12 lg:gap-16">
         {/* Left Column: Heading & Theme */}
         <div className="lg:col-span-6">
