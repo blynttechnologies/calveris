@@ -220,7 +220,7 @@ export const ContactForm: React.FC = () => {
 
           {submitted && (
             <p className="text-xs text-accent font-medium">
-              ✓ Email client opened! If your default mail client didn't launch, click "Copy Details" and send directly to sri@calveris.uk.
+              ✓ Email client opened! If your default mail client didn't launch, click "Copy Details" and send directly to info@calveris.co.uk.
             </p>
           )}
         </form>
