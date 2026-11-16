@@ -28,7 +28,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-normal tracking-tight text-foreground leading-[1.02]">
+          <h1 className="font-display text-5xl sm:text-6xl md:text-6xl lg:text-6xl font-normal tracking-tight text-foreground leading-[1.02]">
             Your audit team, <br />
             <span className="italic font-light text-accent/90">extended.</span>
           </h1>
