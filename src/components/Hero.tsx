@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, ShieldCheck, Phone } from 'lucide-react';
 
 interface HeroProps {
@@ -11,6 +11,31 @@ const stats = [
   { v: 'ACCA', l: 'Qualified founder' },
   { v: '100%', l: 'Your clients stay yours' },
 ];
+
+
+// Counts up to a number once it scrolls into view; non-numeric values show as-is
+const CountUp: React.FC<{ value: string }> = ({ value }) => {
+  const m = value.match(/^(\d+)(.*)$/);
+  const ref = useRef<HTMLParagraphElement>(null);
+  const [n, setN] = useState(m ? 0 : -1);
+  useEffect(() => {
+    if (!m || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { if (m) setN(+m[1]); return; }
+    const io = new IntersectionObserver(([e]) => {
+      if (!e.isIntersecting) return;
+      io.disconnect();
+      const end = +m[1], t0 = performance.now();
+      const tick = (t: number) => {
+        const k = Math.min((t - t0) / 1200, 1);
+        setN(Math.round(end * (1 - Math.pow(1 - k, 3))));
+        if (k < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    });
+    if (ref.current) io.observe(ref.current);
+    return () => io.disconnect();
+  }, []);
+  return <p ref={ref} className="font-display text-3xl text-accent">{m ? `${n}${m[2]}` : value}</p>;
+};
 
 export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
@@ -70,7 +95,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
         <div className="shell grid grid-cols-2 gap-8 py-10 lg:grid-cols-4">
           {stats.map((s) => (
             <div key={s.l} className="text-center lg:text-left">
-              <p className="font-display text-3xl text-accent">{s.v}</p>
+              <CountUp value={s.v} />
               <p className="mt-1 text-sm text-foreground/70">{s.l}</p>
             </div>
           ))}

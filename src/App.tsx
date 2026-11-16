@@ -48,6 +48,15 @@ export const App: React.FC = () => {
         el.classList.add('reveal');
         io.observe(el);
       });
+      // Stagger the children of grids/lists so cards arrive one after another
+      document.querySelectorAll('main section .grid').forEach((grid) => {
+        Array.from(grid.children).forEach((c, i) => {
+          const el = c as HTMLElement;
+          el.classList.add('reveal');
+          el.style.transitionDelay = `${Math.min(i, 8) * 80}ms`;
+          io.observe(el);
+        });
+      });
     }, 50);
     return () => {
       clearTimeout(t);
