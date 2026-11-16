@@ -28,13 +28,11 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-[color-mix(in_srgb,var(--background)_95%,transparent)] backdrop-blur-md border-b border-hairline py-0 shadow-xl'
-          : 'bg-[color-mix(in_srgb,var(--background)_96%,transparent)] backdrop-blur-[6px] py-1 border-b border-hairline/40'
+      className={`dark-zone fixed inset-x-0 top-0 z-50 bg-[var(--deep)] transition-shadow duration-300 ${
+        isScrolled ? 'shadow-[0_8px_24px_rgba(0,0,0,0.35)]' : ''
       }`}
     >
-      <div className="shell flex h-20 items-center justify-between">
+      <div className="shell flex h-[4.5rem] items-center justify-between">
         {/* Brand Logo */}
         <a
           href="/"
@@ -51,7 +49,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-5 2xl:gap-7 whitespace-nowrap xl:flex">
+        <nav className="hidden items-center gap-6 2xl:gap-8 whitespace-nowrap xl:flex">
           {siteConfig.navLinks.map((link) => {
             const isActive = currentPath === link.path;
             return (
@@ -59,10 +57,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
                 key={link.path}
                 href={link.path}
                 onClick={(e) => handleLinkClick(e, link.path)}
-                className={`eyebrow tracking-[0.1em] text-[0.72rem] whitespace-nowrap transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 duration-300 cursor-pointer ${
+                className={`text-sm normal-case tracking-normal font-medium whitespace-nowrap transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 duration-300 cursor-pointer ${
                   isActive
-                    ? 'text-foreground underline underline-offset-8 decoration-accent decoration-2 font-semibold'
-                    : 'text-foreground/75 hover:text-accent'
+                    ? 'text-accent font-semibold'
+                    : 'text-foreground/80 hover:text-foreground'
                 }`}
               >
                 {link.label}
@@ -76,7 +74,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
           <a
             href="/contact"
             onClick={(e) => handleLinkClick(e, '/contact')}
-            className="hidden sm:inline-flex shrink-0 whitespace-nowrap items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 text-xs font-bold uppercase tracking-[0.16em] shadow-md hover:bg-gold-hover transition-all duration-300 hover:translate-y-[-1px] rounded-sm"
+            className="hidden sm:inline-flex shrink-0 whitespace-nowrap items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 text-sm font-semibold hover:bg-gold-hover transition-all duration-300 hover:translate-y-[-1px] rounded-sm"
           >
             <span>Build Your Team</span>
             <ArrowUpRight className="size-3.5" />

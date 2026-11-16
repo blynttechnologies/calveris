@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, ShieldCheck, CheckCircle2, Users, BadgeCheck } from 'lucide-react';
+import { ArrowUpRight, ShieldCheck } from 'lucide-react';
 
 interface HeroProps {
   onNavigate: (path: string) => void;
@@ -15,58 +15,36 @@ const stats = [
 export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
     <>
-      <section className="relative overflow-hidden bg-background pt-32 pb-16 lg:pt-40 lg:pb-24">
-        <div aria-hidden="true" className="absolute -top-32 -right-32 size-[34rem] rounded-full bg-accent/10 blur-3xl" />
-        <div className="shell relative grid items-center gap-14 lg:grid-cols-12">
-          <div className="lg:col-span-6">
-            <span className="inline-flex items-center gap-2 rounded-full border border-hairline bg-card px-4 py-1.5 text-xs font-semibold text-accent">
-              <BadgeCheck className="size-4" /> Audit &amp; accounting support for UK firms
-            </span>
-            <h1 className="font-display mt-6 text-4xl sm:text-5xl lg:text-6xl leading-[1.08] text-foreground">
-              Your audit team, <span className="text-accent">extended.</span>
+      <section className="dark-zone bg-[var(--deep)] pt-[4.5rem]">
+        <div className="grid lg:grid-cols-2 lg:min-h-[calc(100vh-4.5rem)]">
+          <div className="flex flex-col justify-center px-6 py-16 sm:px-12 lg:pl-[max(2.5rem,calc((100vw-80rem)/2+2.5rem))] lg:pr-16 lg:py-24">
+            <h1 className="font-display text-5xl sm:text-6xl xl:text-7xl leading-[1.02] text-foreground">
+              Your audit team, extended.
             </h1>
-            <p className="mt-6 text-lg text-foreground/75 leading-relaxed max-w-xl">
-              Experienced audit and accounting professionals who work inside your systems, so your firm can add capacity, meet deadlines and grow — without the recruitment headache.
+            <p className="mt-7 text-lg sm:text-xl text-foreground/80 leading-relaxed max-w-xl">
+              Experienced UK audit and accounting professionals who work inside your systems, so your firm can take on more clients without the recruitment headache.
             </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <button
-                onClick={() => onNavigate('/audit-team')}
-                className="inline-flex items-center gap-2 rounded-xl bg-accent px-7 py-3.5 text-sm font-semibold text-accent-foreground shadow-lg hover:bg-gold-hover hover:-translate-y-0.5"
-              >
-                Explore audit support <ArrowUpRight className="size-4" />
-              </button>
+            <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
               <button
                 onClick={() => onNavigate('/contact')}
-                className="inline-flex items-center rounded-xl border border-hairline-light bg-card px-7 py-3.5 text-sm font-semibold text-foreground hover:border-accent hover:text-accent"
+                className="inline-flex items-center gap-2 bg-accent px-8 py-4 text-base font-semibold text-accent-foreground hover:bg-gold-hover"
               >
-                Speak with Sri
+                Build your team <ArrowUpRight className="size-5" />
               </button>
+              <a href="tel:+447803061011" className="text-base font-semibold text-foreground hover:text-accent">
+                or call +44 7803 061011
+              </a>
             </div>
-            <ul className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-foreground/70">
-              <li className="flex items-center gap-2"><ShieldCheck className="size-4 text-accent" />You keep signing authority</li>
-              <li className="flex items-center gap-2"><CheckCircle2 className="size-4 text-accent" />Works in your software</li>
-            </ul>
+            <p className="mt-8 flex items-center gap-2 text-sm text-foreground/70">
+              <ShieldCheck className="size-4 text-accent" /> You keep signing authority and your client relationships.
+            </p>
           </div>
-
-          <div className="relative lg:col-span-6">
-            <div className="overflow-hidden rounded-3xl shadow-[0_30px_70px_rgba(20,32,28,0.22)] aspect-[4/3]">
-              <img
-                src={`${import.meta.env.BASE_URL}assets/hero-architecture.jpg`}
-                alt="Modern British architecture symbolizing structure and precision"
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className="absolute -bottom-6 -left-4 sm:-left-8 flex items-center gap-3 rounded-2xl bg-card p-4 shadow-xl border border-hairline">
-              <span className="flex size-11 items-center justify-center rounded-xl bg-accent/10 text-accent"><Users className="size-5" /></span>
-              <div>
-                <p className="text-sm font-semibold text-foreground">Junior to Manager</p>
-                <p className="text-xs text-foreground/60">UK audit professionals</p>
-              </div>
-            </div>
-            <div className="absolute -top-5 -right-2 sm:-right-6 rounded-2xl bg-card px-5 py-4 shadow-xl border border-hairline">
-              <p className="text-xs text-foreground/60">CCH · CaseWare · Xero</p>
-              <p className="text-sm font-semibold text-foreground">Embedded in your stack</p>
-            </div>
+          <div className="relative min-h-[18rem] lg:min-h-0">
+            <img
+              src={`${import.meta.env.BASE_URL}assets/hero-architecture.jpg`}
+              alt="Modern British architecture symbolizing structure and precision"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
           </div>
         </div>
       </section>
