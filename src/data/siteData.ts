@@ -45,7 +45,7 @@ export const siteConfig = {
     image: `${import.meta.env.BASE_URL}assets/founder-sri.jpg`,
   },
   contact: {
-    email: "info@calveris.co.uk",
+    email: "sri@calveris.uk",
     phone: "+44 7803 061011",
     phoneDisplay: "+44 7803 061011",
     whatsapp: "https://wa.me/447803061011",
