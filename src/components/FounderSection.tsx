@@ -6,7 +6,7 @@ export const FounderSection: React.FC = () => {
   const { founder } = siteConfig;
 
   return (
-    <section className="border-b border-hairline bg-background py-24 lg:py-36">
+    <section className="border-b border-hairline bg-background py-16 lg:py-24">
       <div className="shell">
         {/* Header */}
         <div className="max-w-3xl">
@@ -29,7 +29,7 @@ export const FounderSection: React.FC = () => {
                 alt={`${founder.name}, ${founder.title}`}
                 className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-105 filter contrast-[1.05]"
               />
-              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#060c0a] via-[#060c0a]/60 to-transparent p-6 text-foreground">
+              <div className="absolute bottom-0 inset-x-0 dark-zone bg-transparent bg-gradient-to-t from-[var(--deep)] via-[color-mix(in_srgb,var(--deep)_60%,transparent)] to-transparent p-6 text-foreground">
                 <span className="eyebrow text-[0.7rem] tracking-[0.2em] text-accent font-bold uppercase">
                   Founder & Managing Director
                 </span>

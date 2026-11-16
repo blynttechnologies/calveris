@@ -8,7 +8,7 @@ interface ProcessStepsProps {
 
 export const ProcessStepsSection: React.FC<ProcessStepsProps> = ({ showFullDetails = false }) => {
   return (
-    <section className="border-b border-hairline bg-[#0c1a15] py-24 lg:py-36">
+    <section className="border-b border-hairline bg-[var(--surface)] py-16 lg:py-24">
       <div className="shell">
         {/* Header */}
         <div className="max-w-3xl">

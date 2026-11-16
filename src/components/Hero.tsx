@@ -7,34 +7,34 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
-    <section className="relative min-h-[92vh] flex items-center overflow-hidden bg-background text-foreground pt-24 pb-20">
+    <section className="relative min-h-[80vh] flex items-center overflow-hidden bg-background text-foreground pt-28 pb-16">
       {/* Background Architectural Image with Mayfair Midnight Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={`${import.meta.env.BASE_URL}assets/hero-architecture.jpg`}
           alt="Modern British architecture symbolizing structure and precision"
-          className="h-full w-full object-cover object-center opacity-25 brightness-[0.7] contrast-[1.15] scale-[1.02]"
+          className="h-full w-full object-cover object-center opacity-[0.14] grayscale"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#091210] via-[#091210]/85 to-[#091210]/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#091210] via-transparent to-[#091210]/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[var(--background)] via-[color-mix(in_srgb,var(--background)_85%,transparent)] to-[color-mix(in_srgb,var(--background)_50%,transparent)]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-[color-mix(in_srgb,var(--background)_70%,transparent)]" />
       </div>
 
       <div className="shell relative z-10 py-12 lg:py-20">
         <div className="max-w-3xl">
           {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2.5 border border-hairline bg-[#101c18]/80 backdrop-blur-sm px-3.5 py-1.5 mb-8 text-xs tracking-[0.18em] uppercase text-accent font-semibold rounded-sm">
+          <div className="inline-flex items-center gap-2.5 border border-hairline bg-card px-3.5 py-1.5 mb-6 text-xs tracking-[0.18em] uppercase text-accent font-semibold rounded-sm">
             <span className="size-1.5 rotate-45 bg-accent" />
             <span>Your extended audit & accounting team — for UK firms</span>
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-normal tracking-tight text-foreground leading-[1.02]">
+          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-normal tracking-tight text-foreground leading-[1.02]">
             Your audit team, <br />
             <span className="italic font-light text-accent/90">extended.</span>
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-8 text-lg sm:text-xl text-foreground/85 font-light leading-relaxed max-w-2xl">
+          <p className="mt-6 text-lg sm:text-xl text-foreground/85 font-light leading-relaxed max-w-2xl">
             Experienced audit and accounting professionals helping UK accountancy firms increase capacity, meet deadlines and grow — without the recruitment headache.
           </p>
 
@@ -61,7 +61,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           </div>
 
           {/* Trust points */}
-          <div className="mt-14 pt-8 border-t border-hairline grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="mt-12 pt-8 border-t border-hairline grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="flex items-center gap-2.5 text-xs text-foreground/80">
               <ShieldCheck className="size-4 text-accent shrink-0" />
               <span>You retain signing authority</span>

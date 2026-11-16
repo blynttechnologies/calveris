@@ -7,27 +7,46 @@
    Palette: Midnight Forest, Deep Bottle Green, Champagne Gold, Parchment
    ========================================================================== */
 :root {
-  --radius: 0rem;
+  --radius: 0.125rem;
+  --background: #faf8f4;
+  --foreground: #14201c;
+  --card: #ffffff;
+  --card-foreground: #14201c;
+  --primary: #8a6a2f;
+  --primary-foreground: #ffffff;
+  --secondary: #f0ece3;
+  --secondary-foreground: #14201c;
+  --muted: #efeae0;
+  --muted-foreground: #5c6660;
+  --accent: #8a6a2f;
+  --accent-foreground: #ffffff;
+  --ink: #14201c;
+  --ink-foreground: #faf8f4;
+  --forest: #f3efe6;
+  --forest-foreground: #14201c;
+  --surface: #f3efe6;
+  --deep: #0f1c18;
+  --hairline: rgba(138, 106, 47, 0.28);
+  --hairline-light: rgba(138, 106, 47, 0.35);
+  --gold: #8a6a2f;
+  --gold-hover: #6f5424;
+}
+
+/* Dark sections (footer, closing CTA) keep the original deep-green palette */
+.dark-zone {
   --background: #091210;
   --foreground: #f5f3ef;
   --card: #101c18;
-  --card-foreground: #f5f3ef;
-  --primary: #c5a880;
-  --primary-foreground: #091210;
   --secondary: #162621;
-  --secondary-foreground: #f5f3ef;
-  --muted: #162621;
   --muted-foreground: #a39e93;
   --accent: #c5a880;
   --accent-foreground: #091210;
-  --ink: #060c0a;
-  --ink-foreground: #f5f3ef;
-  --forest: #0c1a15;
-  --forest-foreground: #f5f3ef;
+  --deep: #0f1c18;
   --hairline: rgba(197, 168, 128, 0.2);
   --hairline-light: rgba(197, 168, 128, 0.25);
-  --gold: #c5a880;
   --gold-hover: #d4af37;
+  background-color: var(--deep);
+  color: var(--foreground);
 }
 
 body {

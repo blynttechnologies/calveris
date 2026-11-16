@@ -30,8 +30,8 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#091210]/95 backdrop-blur-md border-b border-hairline py-0 shadow-xl'
-          : 'bg-[#091210]/60 backdrop-blur-[6px] py-1 border-b border-hairline/40'
+          ? 'bg-[color-mix(in_srgb,var(--background)_95%,transparent)] backdrop-blur-md border-b border-hairline py-0 shadow-xl'
+          : 'bg-[color-mix(in_srgb,var(--background)_60%,transparent)] backdrop-blur-[6px] py-1 border-b border-hairline/40'
       }`}
     >
       <div className="shell flex h-20 items-center justify-between">
@@ -96,7 +96,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
 
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="xl:hidden bg-[#091210]/98 backdrop-blur-xl border-b border-hairline px-6 py-8 transition-all">
+        <div className="xl:hidden bg-[color-mix(in_srgb,var(--background)_98%,transparent)] backdrop-blur-xl border-b border-hairline px-6 py-8 transition-all">
           <nav className="flex flex-col gap-5">
             {siteConfig.navLinks.map((link) => {
               const isActive = currentPath === link.path;

@@ -12,7 +12,7 @@ export const AccountingServicesSection: React.FC<AccountingServicesProps> = ({
   showExtendedDetails = false,
 }) => {
   return (
-    <section className="border-b border-hairline bg-background py-24 lg:py-36">
+    <section className="border-b border-hairline bg-background py-16 lg:py-24">
       <div className="shell">
         {/* Header */}
         <div className="max-w-3xl">
@@ -33,7 +33,7 @@ export const AccountingServicesSection: React.FC<AccountingServicesProps> = ({
           {accountingServices.map((service) => (
             <div
               key={service.id}
-              className="group relative bg-card p-8 lg:p-10 transition-colors duration-300 hover:bg-[#162621] flex flex-col justify-between"
+              className="group relative bg-card p-8 lg:p-10 transition-colors duration-300 hover:bg-[var(--secondary)] flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center justify-between text-muted-foreground">

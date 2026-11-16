@@ -14,7 +14,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   };
 
   return (
-    <footer className="bg-[#060c0a] text-foreground border-t border-hairline">
+    <footer className="dark-zone bg-[var(--deep)] text-foreground border-t border-hairline">
       <div className="shell py-20 lg:py-24">
         <div className="grid gap-12 lg:grid-cols-12">
           {/* Brand & Purpose Column */}
@@ -38,7 +38,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <p className="mt-4 text-sm text-foreground/60 leading-relaxed max-w-sm font-light">
               Specialist backend audit and accounting support for UK firms. Your methodology. Your relationships. Our delivery support.
             </p>
-            <div className="mt-6 inline-flex items-center gap-2 border border-hairline bg-[#101c18] px-3.5 py-1.5 text-xs text-foreground/80 rounded-sm">
+            <div className="mt-6 inline-flex items-center gap-2 border border-hairline bg-[var(--card)] px-3.5 py-1.5 text-xs text-foreground/80 rounded-sm">
               <span className="size-1.5 rounded-full bg-accent animate-pulse" />
               <span>Founder-level access, always</span>
             </div>

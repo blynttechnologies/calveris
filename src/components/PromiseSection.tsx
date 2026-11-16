@@ -26,7 +26,7 @@ export const PromiseSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-[#060c0a] py-24 lg:py-36 text-foreground border-b border-hairline">
+    <section className="dark-zone bg-[var(--deep)] py-16 lg:py-24 text-foreground border-b border-hairline">
       <div className="shell">
         {/* Header */}
         <div className="max-w-3xl">
@@ -49,7 +49,7 @@ export const PromiseSection: React.FC = () => {
             return (
               <div
                 key={idx}
-                className="flex items-start gap-5 border-r border-b border-hairline p-8 lg:p-12 transition-colors duration-500 hover:bg-[#101c18]"
+                className="flex items-start gap-5 border-r border-b border-hairline p-8 lg:p-12 transition-colors duration-500 hover:bg-[var(--card)]"
               >
                 <div className="p-3 bg-accent/15 border border-accent/40 text-accent shrink-0 rounded-sm">
                   <Icon className="size-5" />

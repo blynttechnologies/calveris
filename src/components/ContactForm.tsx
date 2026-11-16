@@ -120,7 +120,7 @@ export const ContactForm: React.FC = () => {
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 placeholder="Full name"
-                className="w-full bg-[#091210] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
+                className="w-full bg-[var(--background)] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
               />
             </div>
 
@@ -134,7 +134,7 @@ export const ContactForm: React.FC = () => {
                 value={formData.firm}
                 onChange={(e) => setFormData({ ...formData, firm: e.target.value })}
                 placeholder="Your practice"
-                className="w-full bg-[#091210] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
+                className="w-full bg-[var(--background)] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
               />
             </div>
           </div>
@@ -150,7 +150,7 @@ export const ContactForm: React.FC = () => {
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 placeholder="you@firm.co.uk"
-                className="w-full bg-[#091210] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
+                className="w-full bg-[var(--background)] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
               />
             </div>
 
@@ -161,7 +161,7 @@ export const ContactForm: React.FC = () => {
               <select
                 value={formData.role}
                 onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                className="w-full bg-[#091210] border border-hairline px-4 py-3 text-sm text-foreground focus:border-accent focus:outline-none transition-colors rounded-sm"
+                className="w-full bg-[var(--background)] border border-hairline px-4 py-3 text-sm text-foreground focus:border-accent focus:outline-none transition-colors rounded-sm"
               >
                 <option value="">Select a service or role</option>
                 <option value="Audit Junior">Audit Junior</option>
@@ -186,7 +186,7 @@ export const ContactForm: React.FC = () => {
               value={formData.details}
               onChange={(e) => setFormData({ ...formData, details: e.target.value })}
               placeholder="Tell us about your client portfolio, software (e.g. CCH, CaseWare, Xero) and when you need capacity."
-              className="w-full bg-[#091210] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
+              className="w-full bg-[var(--background)] border border-hairline px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground/60 focus:border-accent focus:outline-none transition-colors rounded-sm"
             />
           </div>
 
@@ -202,7 +202,7 @@ export const ContactForm: React.FC = () => {
             <button
               type="button"
               onClick={handleCopyEmail}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-hairline bg-[#162621] px-6 py-4 text-xs font-semibold uppercase tracking-[0.16em] text-foreground hover:border-accent transition-all rounded-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-hairline bg-[var(--secondary)] px-6 py-4 text-xs font-semibold uppercase tracking-[0.16em] text-foreground hover:border-accent transition-all rounded-sm"
             >
               {copied ? (
                 <>

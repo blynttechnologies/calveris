@@ -12,7 +12,7 @@ export const AuditRolesSection: React.FC<AuditRolesProps> = ({
   showExtendedDetails = false,
 }) => {
   return (
-    <section className="bg-[#0c1a15] py-24 lg:py-36 text-foreground border-b border-hairline relative">
+    <section className="bg-[var(--surface)] py-16 lg:py-24 text-foreground border-b border-hairline relative">
       <div className="shell">
         {/* Header */}
         <div className="max-w-3xl">
@@ -33,7 +33,7 @@ export const AuditRolesSection: React.FC<AuditRolesProps> = ({
           {auditRoles.map((role) => (
             <div
               key={role.id}
-              className="group relative flex flex-col justify-between border border-hairline bg-[#101c18] p-8 transition-all duration-300 hover:bg-[#162621] hover:border-accent hover:-translate-y-1 rounded-sm shadow-md"
+              className="group relative flex flex-col justify-between border border-hairline bg-[var(--card)] p-8 transition-all duration-300 hover:bg-[var(--secondary)] hover:border-accent hover:-translate-y-1 rounded-sm shadow-md"
             >
               <div>
                 <div className="flex items-center justify-between text-muted-foreground">

@@ -8,7 +8,7 @@ interface CapacityCTAProps {
 
 export const CapacityCTASection: React.FC<CapacityCTAProps> = ({ onNavigate }) => {
   return (
-    <section className="bg-[#060c0a] py-24 lg:py-36 text-foreground border-b border-hairline relative">
+    <section className="dark-zone bg-[var(--deep)] py-16 lg:py-24 text-foreground border-b border-hairline relative">
       <div className="shell text-center">
         <div className="max-w-2xl mx-auto">
           <p className="eyebrow inline-flex items-center gap-3 text-accent mb-6 font-semibold">
