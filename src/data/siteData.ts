@@ -66,7 +66,6 @@ export const siteConfig = {
     { label: "Why Calveris", path: "/why-calveris" },
     { label: "About Us", path: "/about" },
     { label: "Contact", path: "/contact" },
-    { label: "5 Redesigns (PDF)", path: "/designs" },
   ],
 };
 

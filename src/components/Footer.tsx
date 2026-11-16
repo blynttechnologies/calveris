@@ -113,15 +113,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   Contact
                 </a>
               </li>
-              <li>
-                <a
-                  href="/designs"
-                  onClick={(e) => handleLinkClick(e, '/designs')}
-                  className="text-accent hover:underline transition-colors cursor-pointer font-semibold"
-                >
-                  Design Book (PDF)
-                </a>
-              </li>
             </ul>
           </div>
 
