@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, ShieldCheck } from 'lucide-react';
+import { ArrowUpRight, ShieldCheck, Phone } from 'lucide-react';
 
 interface HeroProps {
   onNavigate: (path: string) => void;
@@ -15,7 +15,7 @@ const stats = [
 export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
     <>
-      <section className="bg-[var(--deep)] pt-[4.5rem]">
+      <section className="pattern-uk bg-[var(--deep)] pt-[4.5rem]">
         <div className="shell flex flex-col items-center text-center py-16 lg:py-24">
           {/* Authority: who stands behind the firm */}
           <p className="text-sm font-medium text-foreground/70">
@@ -38,8 +38,11 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             >
               Build your team <ArrowUpRight className="size-5" />
             </button>
-            <a href="tel:+447803061011" className="text-base font-semibold text-foreground hover:text-accent">
-              or call +44 7803 061011
+            <a
+              href="tel:+447803061011"
+              className="inline-flex items-center gap-2.5 border-2 border-accent bg-card px-8 py-[0.9rem] text-base font-semibold text-accent hover:bg-accent hover:text-accent-foreground"
+            >
+              <Phone className="size-5" /> +44 7803 061011
             </a>
           </div>
           <p className="mt-4 text-sm text-foreground/65">Free initial conversation · No obligation · Confidential</p>
