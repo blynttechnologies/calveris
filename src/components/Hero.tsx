@@ -7,16 +7,16 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
   return (
-    <section className="relative min-h-[80vh] flex items-center overflow-hidden bg-background text-foreground pt-28 pb-16">
+    <section className="relative min-h-[80vh] flex items-center overflow-hidden dark-zone bg-[var(--deep)] text-foreground pt-28 pb-16">
       {/* Background Architectural Image with Mayfair Midnight Overlay */}
       <div className="absolute inset-0 z-0">
         <img
           src={`${import.meta.env.BASE_URL}assets/hero-architecture.jpg`}
           alt="Modern British architecture symbolizing structure and precision"
-          className="h-full w-full object-cover object-center opacity-[0.14] grayscale"
+          className="h-full w-full object-cover object-center opacity-50"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[var(--background)] via-[color-mix(in_srgb,var(--background)_85%,transparent)] to-[color-mix(in_srgb,var(--background)_50%,transparent)]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-[color-mix(in_srgb,var(--background)_70%,transparent)]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[var(--background)] via-[color-mix(in_srgb,var(--background)_88%,transparent)] to-[color-mix(in_srgb,var(--background)_35%,transparent)]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[var(--background)] via-transparent to-transparent" />
       </div>
 
       <div className="shell relative z-10 py-12 lg:py-20 grid lg:grid-cols-12 gap-12 items-center">
