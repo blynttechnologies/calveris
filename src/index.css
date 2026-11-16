@@ -12,13 +12,13 @@
   --foreground: #1c1912;
   --card: #ffffff;
   --card-foreground: #1c1912;
-  --primary: #8a6a2f;
+  --primary: #976d0f;
   --primary-foreground: #ffffff;
   --secondary: #f5efe0;
   --secondary-foreground: #1c1912;
   --muted: #f5efe0;
   --muted-foreground: #62594a;
-  --accent: #8a6a2f;
+  --accent: #976d0f;
   --accent-foreground: #ffffff;
   --ink: #1c1912;
   --ink-foreground: #ffffff;
@@ -26,10 +26,10 @@
   --forest-foreground: #1c1912;
   --surface: #faf6ec;
   --deep: #faf6ec;
-  --hairline: rgba(138, 106, 47, 0.25);
-  --hairline-light: rgba(138, 106, 47, 0.35);
-  --gold: #8a6a2f;
-  --gold-hover: #6f5424;
+  --hairline: rgba(151, 109, 15, 0.25);
+  --hairline-light: rgba(151, 109, 15, 0.35);
+  --gold: #976d0f;
+  --gold-hover: #c4951f;
 }
 
 /* "Tinted" sections (hero, footer, closing bands): warm white with gold */
@@ -39,12 +39,12 @@
   --card: #ffffff;
   --secondary: #f1e9d4;
   --muted-foreground: #62594a;
-  --accent: #8a6a2f;
+  --accent: #976d0f;
   --accent-foreground: #ffffff;
   --deep: #faf6ec;
-  --hairline: rgba(138, 106, 47, 0.25);
-  --hairline-light: rgba(138, 106, 47, 0.35);
-  --gold-hover: #6f5424;
+  --hairline: rgba(151, 109, 15, 0.25);
+  --hairline-light: rgba(151, 109, 15, 0.35);
+  --gold-hover: #c4951f;
   background-color: var(--deep);
   color: var(--foreground);
 }
@@ -115,7 +115,7 @@ a, button {
   text-transform: uppercase;
   font-size: 0.75rem;
   padding: 0.875rem 1.75rem;
-  box-shadow: 0 4px 14px rgba(138, 106, 47, 0.2);
+  box-shadow: 0 4px 14px rgba(151, 109, 15, 0.2);
   border: 1px solid var(--accent);
 }
 
@@ -123,7 +123,7 @@ a, button {
   background-color: var(--gold-hover);
   border-color: var(--gold-hover);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(138, 106, 47, 0.3);
+  box-shadow: 0 6px 20px rgba(151, 109, 15, 0.3);
 }
 
 .btn-outline-gold {
@@ -140,17 +140,17 @@ a, button {
 .btn-outline-gold:hover {
   border-color: var(--accent);
   color: var(--accent);
-  background-color: rgba(138, 106, 47, 0.08);
+  background-color: rgba(151, 109, 15, 0.08);
 }
 
 /* Wireframe / layout inspection mode (optional debug tool) */
 body.wireframe-mode section {
-  outline: 1px dashed rgba(138, 106, 47, 0.4) !important;
+  outline: 1px dashed rgba(151, 109, 15, 0.4) !important;
   position: relative;
 }
 
 body.wireframe-mode .shell {
-  outline: 1px dotted rgba(138, 106, 47, 0.3) !important;
+  outline: 1px dotted rgba(151, 109, 15, 0.3) !important;
 }
 
 /* Print optimizations for PDF Generation */
@@ -195,3 +195,7 @@ h1.font-display, h2.font-display { text-wrap: balance; }
   mask-image: linear-gradient(to bottom, #000 0%, transparent 65%);
 }
 .pattern-uk > * { position: relative; }
+
+/* Eye-catching gold buttons: bright fill, dark text for contrast */
+.bg-accent { background-color: #e0ad2b; color: #1c1912; }
+.bg-accent:hover { background-color: #c99a1f; }
