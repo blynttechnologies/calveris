@@ -1,0 +1,3182 @@
+{
+ "url": "http://localhost:5199/concepts/5-ledger.html",
+ "at": "2026-11-16T18:19:28.090Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    1,
+    0.64,
+    0.6,
+    0.87,
+    0.52,
+    0.75
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5363,
+     "screens": 6,
+     "words": 186,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "founder-sri.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "YOUR AUDIT TEAM, EXTENDED.",
+     "words": 4,
+     "chars": 26,
+     "lines": 2,
+     "size": 175.7,
+     "vw": 12.2,
+     "font": "Barlow Condensed",
+     "weight": 800,
+     "tracking": -0.01,
+     "leading": 0.88,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.96,
+     "top": 141,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "YOUR AUDIT TEAM, EXTENDED.",
+     "words": 4,
+     "lines": 2,
+     "size": 175.7,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "CALVERIS",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0.04,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.07,
+      "top": 22,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "YOUR AUDIT TEAM, EXTENDED.",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 175.7,
+      "vw": 12.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 141,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "THE AUDIT ROSTER.",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 158.4,
+      "vw": 11,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.69,
+      "top": 1174,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT SEMI-SENIOR",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 1712,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT MANAGER",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 1712,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT JUNIOR",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 1757,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT SENIOR",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.21,
+      "top": 1757,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "THE ACCOUNTS BENCH.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 2053,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ACCOUNTS PREPARATION",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2253,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "BOOKKEEPING",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2253,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "MANAGEMENT ACCOUNTS",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2421,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "FINANCIAL REPORTING",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2421,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "VAT SUPPORT",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 2590,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ACCA-QUALIFIED ACCOUNTANTS",
+      "words": 2,
+      "chars": 26,
+      "lines": 1,
+      "size": 46.1,
+      "vw": 3.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.43,
+      "top": 2590,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SIGNED IN FOUR MOVES.",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 2976,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "TELL US WHAT YOU NEED Scope, systems, deadlines.",
+      "words": 8,
+      "chars": 48,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 3116,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "MEET YOUR PROFESSIONAL Matched to your work.",
+      "words": 7,
+      "chars": 44,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 3225,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "INTEGRATE WITH YOUR TEAM Inside your software.",
+      "words": 7,
+      "chars": 46,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 3334,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "SCALE WHEN YOU NEED Add or release capacity.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 51.8,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 3443,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "WE BUILT THE TEAM WE WISHED WE COULD HAVE HIRED.",
+      "words": 10,
+      "chars": 48,
+      "lines": 3,
+      "size": 66.2,
+      "vw": 4.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 4142,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "ADD CAPACITY. KEEP CONTROL.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 158.4,
+      "vw": 11,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4827,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 21,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 4
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Barlow",
+       "share": 0.61,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.39,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      18,
+      21,
+      22,
+      24,
+      28,
+      46,
+      52,
+      66,
+      130,
+      158,
+      176
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Barlow",
+      "size": 21,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 175.7,
+      "vw": 12.2,
+      "font": "Barlow Condensed",
+      "text": "Your audit team,"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.39,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Scope, systems, deadlines.",
+      "above": "MEET YOUR PROFESSIONAL Matched to your w",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 18,
+      "top": 3186
+     },
+     {
+      "text": "Matched to your work.",
+      "above": "INTEGRATE WITH YOUR TEAM Inside your sof",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 18,
+      "top": 3295
+     },
+     {
+      "text": "Inside your software.",
+      "above": "SCALE WHEN YOU NEED Add or release capac",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 18,
+      "top": 3404
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f4f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.08,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d0d0d",
+       "top": 78,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ff4f1f",
+       "top": 2836,
+       "hsl": {
+        "h": 13,
+        "s": 1,
+        "l": 0.56
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.37
+      },
+      {
+       "color": "#0d0d0d",
+       "share": 0.37
+      },
+      {
+       "color": "#e4e4e0",
+       "share": 0.12
+      },
+      {
+       "color": "#ffe3da",
+       "share": 0.07
+      },
+      {
+       "color": "#9a9a96",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ff4f1f",
+      "hsl": {
+       "h": 13,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Scope, systems, deadlines.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Matched to your work.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Inside your software.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Add or release capacity.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Sign a professional",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Leads fieldwork and supervises juniors.",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#ff4f1f"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 3,
+     "heroLabels": [
+      "SIGN A PROFESSIONAL",
+      "SEE THE ROSTER"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1493
+      },
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2223
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.29
+     }
+    ],
+    "nav": {
+     "links": 3,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow",
+     "barlow condensed"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5363,
+    "margins": {
+     "left": 32,
+     "right": 62
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 78,
+      "height": 956,
+      "words": 30,
+      "media": 1,
+      "middle": 59,
+      "heading": {
+       "text": "Your audit team,",
+       "size": 176,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 62,
+      "textLeft": 32,
+      "textRight": 62,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div#roster.rosterH",
+      "tag": "div",
+      "top": 1034,
+      "height": 459,
+      "words": 16,
+      "media": 0,
+      "middle": 429,
+      "heading": {
+       "text": "The audit roster.",
+       "size": 158,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 74,
+      "textLeft": 32,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.roster",
+      "tag": "section",
+      "top": 1493,
+      "height": 420,
+      "words": 36,
+      "media": 0,
+      "middle": 121,
+      "heading": {
+       "text": "Audit Junior",
+       "size": 52,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 103,
+      "textLeft": 32,
+      "textRight": 103,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.acc",
+      "tag": "section",
+      "top": 1913,
+      "height": 923,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The accounts bench.",
+       "size": 130,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 159,
+      "textLeft": 32,
+      "textRight": 159,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#how.proc",
+      "tag": "section",
+      "top": 2836,
+      "height": 996,
+      "words": 34,
+      "media": 1,
+      "middle": 32,
+      "heading": {
+       "text": "Signed in four moves.",
+       "size": 130,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 163,
+      "textLeft": 32,
+      "textRight": 163,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.why",
+      "tag": "section",
+      "top": 3832,
+      "height": 855,
+      "words": 14,
+      "media": 1,
+      "middle": 244,
+      "heading": {
+       "text": "We built the team we wished we could have hired.",
+       "size": 66,
+       "tag": "blockquote"
+      },
+      "left": 32,
+      "right": 125,
+      "textLeft": 736,
+      "textRight": 125,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.end",
+      "tag": "section",
+      "top": 4687,
+      "height": 676,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Add capacity. Keep control.",
+       "size": 158,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 256,
+      "textLeft": 32,
+      "textRight": 256,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2664,
+      "height": 288
+     },
+     {
+      "top": 3696,
+      "height": 276
+     }
+    ],
+    "h1s": [
+     {
+      "text": "YOUR AUDIT TEAM, EXTENDED.",
+      "size": 176,
+      "top": 141,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 8
+     },
+     {
+      "x": 62,
+      "n": 3
+     },
+     {
+      "x": 766,
+      "n": 3
+     },
+     {
+      "x": 392,
+      "n": 1
+     },
+     {
+      "x": 752,
+      "n": 1
+     },
+     {
+      "x": 1048,
+      "n": 1
+     },
+     {
+      "x": 1112,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.1,
+    "voidBox": {
+     "x": 720,
+     "y": 360,
+     "w": 720,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    1,
+    0.72,
+    0.74,
+    1,
+    0.6,
+    0.69
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5511,
+     "screens": 5.4,
+     "words": 183,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "founder-sri.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "YOUR AUDIT TEAM, EXTENDED.",
+     "words": 4,
+     "chars": 26,
+     "lines": 2,
+     "size": 93.7,
+     "vw": 12.2,
+     "font": "Barlow Condensed",
+     "weight": 800,
+     "tracking": -0.01,
+     "leading": 0.88,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 150,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "YOUR AUDIT TEAM, EXTENDED.",
+     "words": 4,
+     "lines": 2,
+     "size": 93.7,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "CALVERIS",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0.04,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 22,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "YOUR AUDIT TEAM, EXTENDED.",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 93.7,
+      "vw": 12.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 150,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "THE AUDIT ROSTER.",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.76,
+      "top": 1195,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT JUNIOR",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1506,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT SEMI-SENIOR",
+      "words": 2,
+      "chars": 17,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 1506,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT SENIOR",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1766,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT MANAGER",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 1766,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "THE ACCOUNTS BENCH.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1985,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ACCOUNTS PREPARATION",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 2119,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "BOOKKEEPING",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 2263,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "MANAGEMENT ACCOUNTS",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 2407,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "FINANCIAL REPORTING",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 2551,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "VAT SUPPORT",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 2695,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ACCA-QUALIFIED ACCOUNTANTS",
+      "words": 2,
+      "chars": 26,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 2840,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SIGNED IN FOUR MOVES.",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3095,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "TELL US WHAT YOU NEED Scope, systems, deadlines.",
+      "words": 8,
+      "chars": 48,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3702,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "MEET YOUR PROFESSIONAL Matched to your work.",
+      "words": 7,
+      "chars": 44,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3791,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "INTEGRATE WITH YOUR TEAM Inside your software.",
+      "words": 7,
+      "chars": 46,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3880,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "SCALE WHEN YOU NEED Add or release capacity.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3970,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "WE BUILT THE TEAM WE WISHED WE COULD HAVE HIRED.",
+      "words": 10,
+      "chars": 48,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 4812,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "ADD CAPACITY. KEEP CONTROL.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 84.5,
+      "vw": 11,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 5057,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 21,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 4
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Barlow",
+       "share": 0.6,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.4,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      18,
+      21,
+      22,
+      24,
+      28,
+      32,
+      34,
+      35,
+      69,
+      85,
+      94
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Barlow",
+      "size": 21,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 93.7,
+      "vw": 12.2,
+      "font": "Barlow Condensed",
+      "text": "Your audit team,"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.4,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f4f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.08,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d0d0d",
+       "top": 78,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ff4f1f",
+       "top": 3015,
+       "hsl": {
+        "h": 13,
+        "s": 1,
+        "l": 0.56
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d0d0d",
+       "share": 0.38
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.37
+      },
+      {
+       "color": "#e4e4e0",
+       "share": 0.12
+      },
+      {
+       "color": "#ffe3da",
+       "share": 0.07
+      },
+      {
+       "color": "#9a9a96",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ff4f1f",
+      "hsl": {
+       "h": 13,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Scope, systems, deadlines.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Matched to your work.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Inside your software.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Add or release capacity.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Sign a professional",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Leads fieldwork and supervises juniors.",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#ff4f1f"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 3,
+     "heroLabels": [
+      "SIGN A PROFESSIONAL",
+      "SEE THE ROSTER"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1385
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.41
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow",
+     "barlow condensed"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5511,
+    "margins": {
+     "left": 18,
+     "right": 36
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 78,
+      "height": 977,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your audit team,",
+       "size": 94,
+       "tag": "h1"
+      },
+      "left": 18,
+      "right": 135,
+      "textLeft": 18,
+      "textRight": 135,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div#roster.rosterH",
+      "tag": "div",
+      "top": 1055,
+      "height": 330,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The audit roster.",
+       "size": 84,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 169,
+      "textLeft": 18,
+      "textRight": 169,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.roster",
+      "tag": "section",
+      "top": 1385,
+      "height": 520,
+      "words": 36,
+      "media": 0,
+      "middle": 140,
+      "heading": {
+       "text": "Audit Junior",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 18,
+      "right": 126,
+      "textLeft": 18,
+      "textRight": 126,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.acc",
+      "tag": "section",
+      "top": 1905,
+      "height": 1110,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The accounts bench.",
+       "size": 69,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 190,
+      "textLeft": 18,
+      "textRight": 190,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#how.proc",
+      "tag": "section",
+      "top": 3015,
+      "height": 1123,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Signed in four moves.",
+       "size": 69,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 18,
+      "textLeft": 18,
+      "textRight": 177,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.why",
+      "tag": "section",
+      "top": 4139,
+      "height": 838,
+      "words": 14,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 18,
+      "right": 42,
+      "textLeft": 18,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.end",
+      "tag": "section",
+      "top": 4977,
+      "height": 534,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Add capacity. Keep control.",
+       "size": 84,
+       "tag": "h2"
+      },
+      "left": 18,
+      "right": 135,
+      "textLeft": 18,
+      "textRight": 135,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "YOUR AUDIT TEAM, EXTENDED.",
+      "size": 94,
+      "top": 150,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 18,
+      "n": 10
+     },
+     {
+      "x": 48,
+      "n": 6
+     },
+     {
+      "x": 402,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    1,
+    0.65,
+    0.69,
+    0.77,
+    0.91,
+    0.71,
+    0.87
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5199,
+     "screens": 6.2,
+     "words": 183,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "founder-sri.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "YOUR AUDIT TEAM, EXTENDED.",
+     "words": 4,
+     "chars": 26,
+     "lines": 2,
+     "size": 47.6,
+     "vw": 12.2,
+     "font": "Barlow Condensed",
+     "weight": 800,
+     "tracking": -0.01,
+     "leading": 0.88,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 137,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "YOUR AUDIT TEAM, EXTENDED.",
+     "words": 4,
+     "lines": 2,
+     "size": 47.6,
+     "font": "Barlow Condensed"
+    },
+    "headings": [
+     {
+      "text": "CALVERIS",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0.04,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 22,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "YOUR AUDIT TEAM, EXTENDED.",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 47.6,
+      "vw": 12.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 137,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "SEE THE ROSTER",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 458,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "THE AUDIT ROSTER.",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 60,
+      "vw": 15.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1069,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT SEMI-SENIOR",
+      "words": 2,
+      "chars": 17,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1353,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT JUNIOR",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1381,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT SENIOR",
+      "words": 2,
+      "chars": 12,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 1641,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "AUDIT MANAGER",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.42,
+      "top": 1641,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "THE ACCOUNTS BENCH.",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1891,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ACCOUNTS PREPARATION",
+      "words": 2,
+      "chars": 20,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 2059,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "BOOKKEEPING",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 2231,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "MANAGEMENT ACCOUNTS",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 2373,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "FINANCIAL REPORTING",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 2544,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "VAT SUPPORT",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 2686,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "ACCA-QUALIFIED ACCOUNTANTS",
+      "words": 2,
+      "chars": 26,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 2828,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "SIGNED IN FOUR MOVES.",
+      "words": 4,
+      "chars": 21,
+      "lines": 2,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3114,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "TELL US WHAT YOU NEED Scope, systems, deadlines.",
+      "words": 8,
+      "chars": 48,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3507,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "MEET YOUR PROFESSIONAL Matched to your work.",
+      "words": 7,
+      "chars": 44,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3596,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "INTEGRATE WITH YOUR TEAM Inside your software.",
+      "words": 7,
+      "chars": 46,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3685,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "SCALE WHEN YOU NEED Add or release capacity.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3774,
+      "mixedFonts": [
+       "Barlow Condensed",
+       "Barlow"
+      ],
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "WE BUILT THE TEAM WE WISHED WE COULD HAVE HIRED.",
+      "words": 10,
+      "chars": 48,
+      "lines": 3,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": 0,
+      "leading": 0.92,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4487,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "ADD CAPACITY. KEEP CONTROL.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Barlow Condensed",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.88,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4793,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SPEAK WITH SRI",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Barlow Condensed",
+      "weight": 700,
+      "tracking": 0.02,
+      "leading": 1.2,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 4914,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 23,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 5,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 4
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Barlow",
+       "share": 0.6,
+       "mono": false
+      },
+      {
+       "family": "Barlow Condensed",
+       "share": 0.4,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      18,
+      21,
+      22,
+      24,
+      28,
+      32,
+      34,
+      44,
+      48,
+      56,
+      60
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Barlow",
+      "size": 21,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.2
+     },
+     "measureChars": 34,
+     "max": {
+      "size": 60,
+      "vw": 15.4,
+      "font": "Barlow Condensed",
+      "text": "The audit roster."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.4,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f4f4f2",
+     "bodyBgHsl": {
+      "h": 60,
+      "s": 0.08,
+      "l": 0.95
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0d0d0d",
+       "top": 78,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ff4f1f",
+       "top": 3034,
+       "hsl": {
+        "h": 13,
+        "s": 1,
+        "l": 0.56
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0d0d0d",
+       "share": 0.38
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.37
+      },
+      {
+       "color": "#e4e4e0",
+       "share": 0.12
+      },
+      {
+       "color": "#ffe3da",
+       "share": 0.07
+      },
+      {
+       "color": "#9a9a96",
+       "share": 0.05
+      }
+     ],
+     "button": {
+      "bg": "#ff4f1f",
+      "hsl": {
+       "h": 13,
+       "s": 1,
+       "l": 0.56
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Scope, systems, deadlines.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Matched to your work.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Inside your software.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Add or release capacity.",
+       "ratio": 2.7,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffe3da",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Sign a professional",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#ff4f1f"
+      },
+      {
+       "text": "Leads fieldwork and supervises juniors.",
+       "ratio": 3.3,
+       "need": 4.5,
+       "size": 18,
+       "fg": "#ffffff",
+       "bg": "#ff4f1f"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 3,
+     "heroLabels": [
+      "SIGN A PROFESSIONAL",
+      "SEE THE ROSTER"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1291
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.34
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow",
+     "barlow condensed"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5199,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 78,
+      "height": 851,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Your audit team,",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 30,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div#roster.rosterH",
+      "tag": "div",
+      "top": 929,
+      "height": 361,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The audit roster.",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 56,
+      "textLeft": 16,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.roster",
+      "tag": "section",
+      "top": 1291,
+      "height": 520,
+      "words": 36,
+      "media": 0,
+      "middle": 38,
+      "heading": {
+       "text": "Audit Junior",
+       "size": 34,
+       "tag": "h3"
+      },
+      "left": 16,
+      "right": 20,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.acc",
+      "tag": "section",
+      "top": 1811,
+      "height": 1223,
+      "words": 38,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "The accounts bench.",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 59,
+      "textLeft": 16,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#how.proc",
+      "tag": "section",
+      "top": 3034,
+      "height": 910,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Signed in four moves.",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.why",
+      "tag": "section",
+      "top": 3944,
+      "height": 769,
+      "words": 14,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.end",
+      "tag": "section",
+      "top": 4713,
+      "height": 486,
+      "words": 16,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Add capacity. Keep control.",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 23,
+      "textLeft": 16,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "YOUR AUDIT TEAM, EXTENDED.",
+      "size": 48,
+      "top": 137,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 10
+     },
+     {
+      "x": 46,
+      "n": 6
+     },
+     {
+      "x": 211,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"WE BUILT THE TEAM WE WISHED WE COULD HAVE HIRED.\" → 3 lines (10 words, 66.2px, a paragraph set above 36px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "4 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "3 eyebrow/kicker label(s) above headings: \"Scope, systems, deadlines.\" above \"MEET YOUR PROFESSIONAL Matched to your w\"; \"Matched to your work.\" above \"INTEGRATE WITH YOUR TEAM Inside your sof\"; \"Inside your software.\" above \"SCALE WHEN YOU NEED Add or release capac\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid."
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Scope, systems, deadlines.\" 2.7:1 needs 4.5:1; \"Matched to your work.\" 2.7:1 needs 4.5:1; \"Inside your software.\" 2.7:1 needs 4.5:1; \"Add or release capacity.\" 2.7:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (15, 18, 21, 22, 24, 28, 46, 52, 66, 130, 158, 176).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 32px on the left, 62px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"WE BUILT THE TEAM WE WISHED WE COULD HAVE HIRED.\" → 3 lines (10 words, 34px, a paragraph set above 24px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\Project\\Cal\\.taste-skill\\5-ledger\\desktop-fold.jpg",
+   "pages": [
+    "D:\\Project\\Cal\\.taste-skill\\5-ledger\\desktop-page-01.jpg",
+    "D:\\Project\\Cal\\.taste-skill\\5-ledger\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\Project\\Cal\\.taste-skill\\5-ledger\\tablet-fold.jpg",
+   "pages": [
+    "D:\\Project\\Cal\\.taste-skill\\5-ledger\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\Project\\Cal\\.taste-skill\\5-ledger\\mobile-fold.jpg",
+   "pages": [
+    "D:\\Project\\Cal\\.taste-skill\\5-ledger\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

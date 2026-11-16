@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Calveris — The Quiet Instrument</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#f7f8f6;--ink:#14201b;--accent:#1f6f4a;--field:#e6ece8;--a1:#14201b;--a2:#1f6f4a;--a3:#e1e9e4;--a4:#f7f8f6;--m:clamp(20px,4vw,56px)}
+*{box-sizing:border-box;margin:0}body{background:var(--ground);color:var(--ink);font:400 18px/1.6 'Instrument Sans',sans-serif}a{color:inherit;text-decoration:none}
+.top{display:flex;justify-content:space-between;padding:24px var(--m);font-weight:500}.top nav{display:flex;gap:28px}
+.col{max-width:540px;margin-left:22vw}h1,h2{font-weight:500;letter-spacing:-.03em}
+.hero{padding:12vh var(--m) 14vh}.hero h1{font-size:clamp(40px,5.8vw,92px);line-height:1;margin-left:22vw;max-width:12em}
+.hero .col{margin-top:40px}.hero p{font-size:20px;line-height:1.55}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:15px 26px;font-weight:600;margin-top:32px}.btn:hover{background:var(--ink)}
+.photo{margin:0 var(--m);height:70vh;min-height:360px;background:url(/assets/hero-architecture.jpg) center/cover}
+.blk{padding:140px var(--m)}.blk h2{font-size:clamp(30px,3.2vw,46px);line-height:1.08;margin-left:22vw;max-width:15em;margin-bottom:32px}
+.blk .col p{margin-bottom:18px}
+.calc{background:var(--field);margin-left:22vw;max-width:760px;padding:40px;display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.calc label{display:block;font-weight:600;margin-bottom:8px}.calc output{font-size:56px;font-weight:500;letter-spacing:-.04em;display:block;line-height:1;margin:6px 0}
+.calc input[type=range]{width:100%;accent-color:var(--accent);height:32px}
+.calc small{color:#42524a;font-size:16px;display:block}
+.tl{margin-left:22vw;max-width:760px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.tl div{background:var(--field);padding:28px}.tl h3{font-size:24px;font-weight:500;letter-spacing:-.02em}.tl p{font-size:16.5px;margin-top:8px}
+.dr{margin-left:22vw;max-width:760px}
+.founder{margin-left:22vw;max-width:760px;display:grid;grid-template-columns:200px 1fr;gap:36px;align-items:center}.founder img{width:100%;aspect-ratio:4/5;object-fit:cover}.founder blockquote{font-size:24px;line-height:1.25;font-weight:500;letter-spacing:-.02em}.founder p{margin-top:16px;font-size:16px}
+.cta{background:var(--ink);color:#fff;padding:140px var(--m)}.cta h2{font-size:clamp(40px,5vw,76px);line-height:1;margin-left:22vw;max-width:9em}.cta .btn{margin-left:22vw;background:#fff;color:var(--ink)}
+footer{background:var(--ink);color:#9fb3a9;padding:0 var(--m) 40px;font-size:15px}
+@media(max-width:860px){.col,.hero h1,.blk h2,.calc,.tl,.dr,.founder,.cta h2,.cta .btn{margin-left:0}.calc,.tl,.founder{grid-template-columns:1fr}.top nav a:not(:last-child){display:none}.blk,.cta{padding:80px var(--m)}.calc{padding:24px}}
+</style></head><body>
+<header class="top"><b>Calveris</b><nav><a href="#audit">Audit team</a><a href="#accounts">Accounting team</a><a href="#how">How it works</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section class="hero"><h1>Your audit team, extended.</h1><div class="col"><p>Experienced audit and accounting professionals helping UK accountancy firms increase capacity, meet deadlines and grow, without the recruitment headache.</p><a class="btn" href="#contact">Speak with Sri</a></div></section>
+<div class="photo" role="img" aria-label="Modern British architecture"></div>
+<section class="blk"><h2>Work out the capacity you are short of.</h2>
+<form class="calc" aria-label="Capacity estimator" onsubmit="return false">
+<div><label for="f">Audit files in busy season</label><input id="f" type="range" min="10" max="200" value="60"><output id="fo">60</output></div>
+<div><label for="h">Hours per file</label><input id="h" type="range" min="10" max="120" value="40"><output id="ho">40</output></div>
+<div style="grid-column:1/-1"><small>Extra people to cover it over a 12-week season</small><output id="r" style="font-size:72px" aria-live="polite">3</output><small>An estimate at 36 productive hours a week. Your own numbers will differ; we will size it with you.</small></div></form></section>
+<section class="blk" id="audit" style="background:var(--field)"><h2>Audit grades that slot into your team.</h2><div class="tl">
+<div><h3>Audit Junior</h3><p>Fieldwork, testing and file preparation.</p></div><div><h3>Audit Semi-Senior</h3><p>Runs sections of the audit with light review.</p></div><div><h3>Audit Senior</h3><p>Leads fieldwork, supervises juniors.</p></div><div><h3>Audit Manager</h3><p>Planning, review and sign-off support.</p></div></div></section>
+<section class="blk" id="accounts"><h2>And the accounts behind them.</h2><div class="tl">
+<div><h3>Accounts Preparation</h3><p>Statutory accounts to your standard.</p></div><div><h3>Bookkeeping</h3><p>Clean, current ledgers.</p></div><div><h3>Management Accounts</h3><p>Monthly packs clients read.</p></div><div><h3>Financial Reporting</h3><p>Support for complex files.</p></div><div><h3>VAT Support</h3><p>Returns prepared and reviewed.</p></div><div><h3>ACCA-Qualified Accountants</h3><p>Qualified depth on demand.</p></div></div></section>
+<section class="blk" id="how" style="background:var(--field)"><h2>Four steps, no recruitment cycle.</h2><div class="dr" data-art="file"></div><div class="col" style="margin-top:40px"><p><b>Tell us what you need.</b> Scope, systems, deadlines.</p><p><b>Meet your professional.</b> Matched to your work.</p><p><b>Integrate with your team.</b> Inside your software and methodology.</p><p><b>Scale when you need.</b> Add or release capacity as demand moves.</p></div></section>
+<section class="blk"><div class="founder"><img src="/assets/founder-sri.jpg" alt="Sri Sivalingam"><div><blockquote>We built the team we wished we could have hired ourselves.</blockquote><p>Sri Sivalingam, Founder, ACCA</p></div></div></section>
+<section class="cta" id="contact"><h2>Add capacity. Keep control.</h2><a class="btn" href="mailto:hello@calveris.co.uk">Speak with Sri</a></section>
+</main><footer><p style="padding-top:28px">Calveris Limited. Audit and accounting capacity for UK firms.</p></footer>
+<script src="art.js"></script>
+<script>const g=i=>document.getElementById(i),u=()=>{g('fo').textContent=g('f').value;g('ho').textContent=g('h').value;g('r').textContent=Math.max(1,Math.ceil(g('f').value*g('h').value/(36*12)))};['f','h'].forEach(i=>g(i).addEventListener('input',u));u()</script></body></html>
