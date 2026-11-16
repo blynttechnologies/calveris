@@ -29,11 +29,11 @@ export const AccountingServicesSection: React.FC<AccountingServicesProps> = ({
         </div>
 
         {/* 6 Services Grid */}
-        <div className="mt-16 grid gap-px bg-hairline sm:grid-cols-2 lg:grid-cols-3 border border-hairline shadow-md">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {accountingServices.map((service) => (
             <div
               key={service.id}
-              className="group relative bg-card p-8 lg:p-10 transition-colors duration-300 hover:bg-[var(--secondary)] flex flex-col justify-between"
+              className="group relative bg-card p-8 rounded-2xl border border-hairline shadow-sm card-lift flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center justify-between text-muted-foreground">
