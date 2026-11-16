@@ -23,7 +23,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           </p>
 
           {/* Clarity + outcome: what you get, in one line */}
-          <h1 className="font-display mt-6 max-w-5xl text-5xl sm:text-6xl xl:text-[5.25rem] leading-[1.08] text-foreground">
+          <h1 className="font-display mt-6 max-w-5xl text-5xl sm:text-6xl xl:text-[5rem] leading-[1.12] text-foreground">
             Add audit capacity <span className="text-accent">without hiring.</span>
           </h1>
           <p className="mt-7 max-w-2xl text-lg sm:text-xl leading-relaxed text-foreground/80">
