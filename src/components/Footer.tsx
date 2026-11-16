@@ -29,7 +29,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </span>
               <span
                 aria-hidden="true"
-                className="inline-block size-[7px] rotate-45 bg-accent shadow-[0_0_8px_rgba(197,168,128,0.6)]"
+                className="inline-block size-[7px] rotate-45 bg-accent shadow-[0_0_8px_rgba(138,106,47,0.6)]"
               />
             </a>
             <p className="mt-4 font-display text-lg italic text-accent/90">

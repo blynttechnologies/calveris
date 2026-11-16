@@ -20,7 +20,7 @@ export const BackToTop: React.FC = () => {
     >
       <MessageCircle className="size-5" /> Chat with us
     </a>
-    <div className="md:hidden fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-hairline bg-card shadow-[0_-6px_20px_rgba(20,32,28,0.12)]">
+    <div className="md:hidden fixed inset-x-0 bottom-0 z-40 grid grid-cols-3 border-t border-hairline bg-card shadow-[0_-6px_20px_rgba(28,25,18,0.12)]">
       {[
         [`tel:${siteConfig.contact.phone}`, Phone, 'Call'],
         [siteConfig.contact.whatsapp, MessageCircle, 'WhatsApp'],

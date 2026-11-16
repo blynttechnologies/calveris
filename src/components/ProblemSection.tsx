@@ -4,7 +4,7 @@ import { AlertCircle } from 'lucide-react';
 
 export const ProblemSection: React.FC = () => {
   return (
-    <section className="bg-vector border-b border-hairline bg-background py-16 lg:py-24">
+    <section className="border-b border-hairline bg-background py-16 lg:py-24">
       <div className="shell grid gap-12 lg:grid-cols-12 lg:gap-16 items-start">
         {/* Left Column */}
         <div className="lg:col-span-5">

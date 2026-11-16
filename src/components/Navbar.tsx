@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
           </span>
           <span
             aria-hidden="true"
-            className="inline-block size-[7px] rotate-45 bg-accent transition-transform duration-300 group-hover:scale-125 shadow-[0_0_8px_rgba(197,168,128,0.6)]"
+            className="inline-block size-[7px] rotate-45 bg-accent transition-transform duration-300 group-hover:scale-125 shadow-[0_0_8px_rgba(138,106,47,0.6)]"
           />
         </a>
 

@@ -8,43 +8,43 @@
    ========================================================================== */
 :root {
   --radius: 0.75rem;
-  --background: #faf8f4;
-  --foreground: #14201c;
+  --background: #ffffff;
+  --foreground: #1c1912;
   --card: #ffffff;
-  --card-foreground: #14201c;
+  --card-foreground: #1c1912;
   --primary: #8a6a2f;
   --primary-foreground: #ffffff;
-  --secondary: #f0ece3;
-  --secondary-foreground: #14201c;
-  --muted: #efeae0;
-  --muted-foreground: #5c6660;
+  --secondary: #f5efe0;
+  --secondary-foreground: #1c1912;
+  --muted: #f5efe0;
+  --muted-foreground: #62594a;
   --accent: #8a6a2f;
   --accent-foreground: #ffffff;
-  --ink: #14201c;
-  --ink-foreground: #faf8f4;
-  --forest: #f3efe6;
-  --forest-foreground: #14201c;
-  --surface: #f3efe6;
-  --deep: #0f1c18;
-  --hairline: rgba(138, 106, 47, 0.28);
+  --ink: #1c1912;
+  --ink-foreground: #ffffff;
+  --forest: #faf6ec;
+  --forest-foreground: #1c1912;
+  --surface: #faf6ec;
+  --deep: #faf6ec;
+  --hairline: rgba(138, 106, 47, 0.25);
   --hairline-light: rgba(138, 106, 47, 0.35);
   --gold: #8a6a2f;
   --gold-hover: #6f5424;
 }
 
-/* Dark sections (hero, footer, closing bands) keep the original deep-green palette */
+/* "Tinted" sections (hero, footer, closing bands): warm white with gold */
 .dark-zone {
-  --background: #091210;
-  --foreground: #f5f3ef;
-  --card: #101c18;
-  --secondary: #162621;
-  --muted-foreground: #a39e93;
-  --accent: #c5a880;
-  --accent-foreground: #091210;
-  --deep: #0f1c18;
-  --hairline: rgba(197, 168, 128, 0.2);
-  --hairline-light: rgba(197, 168, 128, 0.25);
-  --gold-hover: #d4af37;
+  --background: #faf6ec;
+  --foreground: #1c1912;
+  --card: #ffffff;
+  --secondary: #f1e9d4;
+  --muted-foreground: #62594a;
+  --accent: #8a6a2f;
+  --accent-foreground: #ffffff;
+  --deep: #faf6ec;
+  --hairline: rgba(138, 106, 47, 0.25);
+  --hairline-light: rgba(138, 106, 47, 0.35);
+  --gold-hover: #6f5424;
   background-color: var(--deep);
   color: var(--foreground);
 }
@@ -170,7 +170,7 @@ body.wireframe-mode .shell {
 .reveal.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 .card-lift { transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease; }
-.card-lift:hover { transform: translateY(-4px); box-shadow: 0 14px 32px rgba(20, 32, 28, 0.12); border-color: var(--accent); }
+.card-lift:hover { transform: translateY(-4px); box-shadow: 0 14px 32px rgba(28, 25, 18, 0.12); border-color: var(--accent); }
 
 /* Hidden scrollbar (page still scrolls) */
 html { scrollbar-width: none; -ms-overflow-style: none; }
@@ -184,15 +184,4 @@ h1.font-display, h2.font-display { text-wrap: balance; }
 .font-display.font-normal, .font-display.font-light { font-weight: 700; }
 @media (max-width: 767px) { body { padding-bottom: 4rem; } }
 
-/* Subtle gold line vectors in section corners (decorative, behind content) */
-.bg-vector { position: relative; overflow: hidden; }
-.bg-vector::before, .bg-vector::after { content: ""; position: absolute; pointer-events: none; z-index: 0; background-repeat: no-repeat; background-size: contain; }
-.bg-vector::before {
-  top: -4rem; right: -4rem; width: 26rem; height: 26rem; opacity: .5;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' fill='none' stroke='%238a6a2f' stroke-opacity='.35' stroke-width='1.5'%3E%3Ccircle cx='400' cy='0' r='90'/%3E%3Ccircle cx='400' cy='0' r='150'/%3E%3Ccircle cx='400' cy='0' r='210'/%3E%3Ccircle cx='400' cy='0' r='270'/%3E%3Ccircle cx='400' cy='0' r='330'/%3E%3C/svg%3E");
-}
-.bg-vector::after {
-  bottom: -3rem; left: -3rem; width: 20rem; height: 20rem; opacity: .45;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300' fill='none' stroke='%238a6a2f' stroke-opacity='.4' stroke-width='1.5'%3E%3Cpath d='M0 300 L300 0 M0 240 L240 0 M0 180 L180 0 M0 120 L120 0 M0 60 L60 0 M60 300 L300 60 M120 300 L300 120 M180 300 L300 180 M240 300 L300 240'/%3E%3C/svg%3E");
-}
-.bg-vector > * { position: relative; z-index: 1; }
+

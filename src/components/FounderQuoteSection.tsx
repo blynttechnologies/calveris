@@ -4,7 +4,7 @@ import { siteConfig } from '../data/siteData';
 
 export const FounderQuoteSection: React.FC = () => {
   return (
-    <section className="bg-vector bg-[var(--surface)] py-16 lg:py-24 text-foreground border-b border-hairline relative overflow-hidden">
+    <section className="bg-[var(--surface)] py-16 lg:py-24 text-foreground border-b border-hairline relative overflow-hidden">
       <div className="shell relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <p className="eyebrow inline-flex items-center gap-3 text-accent mb-8 font-semibold">

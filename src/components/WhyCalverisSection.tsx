@@ -4,7 +4,7 @@ import { Sparkles } from 'lucide-react';
 
 export const WhyCalverisSection: React.FC = () => {
   return (
-    <section className="bg-vector border-b border-hairline bg-background py-16 lg:py-24">
+    <section className="border-b border-hairline bg-background py-16 lg:py-24">
       <div className="shell">
         {/* Header Grid */}
         <div className="grid gap-8 lg:grid-cols-12 lg:items-end">
