@@ -17,14 +17,14 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
     <>
       <section className="dark-zone bg-[var(--deep)] pt-[4.5rem]">
         <div>
-          <div className="relative overflow-hidden shell flex flex-col justify-center py-20 lg:py-32">
-            <h1 className="font-display text-5xl sm:text-6xl xl:text-7xl leading-[1.03] max-w-4xl text-foreground">
+          <div className="relative overflow-hidden shell flex flex-col items-center text-center justify-center py-20 lg:py-32">
+            <h1 className="font-display text-5xl sm:text-6xl xl:text-7xl leading-[1.03] max-w-5xl text-foreground">
               Your audit team, <span className="text-accent">extended.</span>
             </h1>
-            <p className="mt-8 text-lg sm:text-xl text-foreground/80 leading-relaxed max-w-2xl">
+            <p className="mt-8 text-lg sm:text-xl text-foreground/80 leading-relaxed max-w-2xl mx-auto">
               Experienced UK audit and accounting professionals who work inside your systems, so your firm can take on more clients without the recruitment headache.
             </p>
-            <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
               <button
                 onClick={() => onNavigate('/contact')}
                 className="inline-flex items-center gap-2 bg-accent px-8 py-4 text-base font-semibold text-accent-foreground hover:bg-gold-hover"
@@ -35,7 +35,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                 or call +44 7803 061011
               </a>
             </div>
-            <ul className="mt-14 pt-8 border-t border-hairline grid gap-4 text-sm text-foreground/85 sm:grid-cols-2 lg:grid-cols-4">
+            <ul className="mt-14 pt-8 border-t border-hairline grid w-full gap-4 text-sm text-foreground/85 sm:grid-cols-2 lg:grid-cols-4 justify-items-center">
               {['Audit Junior to Manager', 'ACCA-qualified accountants', 'Works in CCH, CaseWare & Xero', 'You keep signing authority'].map((t) => (
                 <li key={t} className="flex items-center gap-2.5">
                   <ShieldCheck className="size-4 shrink-0 text-accent" /> {t}
