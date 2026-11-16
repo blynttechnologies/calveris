@@ -43,8 +43,8 @@ export default {
       },
       fontFamily: {
         display: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['"Inter Variable"', 'Inter', 'system-ui', 'sans-serif'],
+        body: ['"Inter Variable"', 'Inter', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {
         widest: '0.34em',
