@@ -39,7 +39,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
         <a
           href="/"
           onClick={(e) => handleLinkClick(e, '/')}
-          className="flex items-baseline gap-2 group cursor-pointer"
+          className="flex items-baseline gap-2 group cursor-pointer shrink-0 mr-8"
         >
           <span className="font-display text-[1.5rem] font-normal tracking-[0.34em] text-foreground transition-opacity group-hover:opacity-90">
             {siteConfig.name}
@@ -51,19 +51,16 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-6 xl:flex">
+        <nav className="hidden items-center gap-7 whitespace-nowrap xl:flex">
           {siteConfig.navLinks.map((link) => {
             const isActive = currentPath === link.path;
-            const isSpecial = link.path === '/designs';
             return (
               <a
                 key={link.path}
                 href={link.path}
                 onClick={(e) => handleLinkClick(e, link.path)}
-                className={`eyebrow tracking-[0.16em] text-[0.78rem] transition-all duration-300 cursor-pointer ${
-                  isSpecial
-                    ? 'border border-accent/60 bg-accent/15 px-3 py-1 text-accent hover:bg-accent hover:text-accent-foreground font-bold rounded-sm'
-                    : isActive
+                className={`eyebrow tracking-[0.14em] text-[0.74rem] whitespace-nowrap transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 duration-300 cursor-pointer ${
+                  isActive
                     ? 'text-foreground underline underline-offset-8 decoration-accent decoration-2 font-semibold'
                     : 'text-foreground/75 hover:text-accent'
                 }`}
@@ -79,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
           <a
             href="/contact"
             onClick={(e) => handleLinkClick(e, '/contact')}
-            className="hidden sm:inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 text-xs font-bold uppercase tracking-[0.16em] shadow-md hover:bg-gold-hover transition-all duration-300 hover:translate-y-[-1px] rounded-sm"
+            className="hidden sm:inline-flex shrink-0 whitespace-nowrap items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 text-xs font-bold uppercase tracking-[0.16em] shadow-md hover:bg-gold-hover transition-all duration-300 hover:translate-y-[-1px] rounded-sm"
           >
             <span>Build Your Team</span>
             <ArrowUpRight className="size-3.5" />
